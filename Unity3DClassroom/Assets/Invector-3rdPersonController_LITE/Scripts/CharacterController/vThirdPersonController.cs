@@ -1,21 +1,51 @@
 ﻿using UnityEngine;
+using Photon.Pun;
 
 namespace Invector.vCharacterController
 {
     public class vThirdPersonController : vThirdPersonAnimator
     {
         public bool canMove = true;
-        public SitOn sitOn;
+        //public SitOn sitOn;
+        public GameObject[] chairs;
+        private PhotonView PV;
+        private SitOn sitOn, sitOnChair;
+        private int chairNum;
+
+        protected virtual void Start()
+        {
+            PV = GetComponent<PhotonView>();
+            chairs = GameObject.FindGameObjectsWithTag("Chair");
+        }
 
         void Update()
         {
-            if (sitOn.sittingOn)
+            if (PV.IsMine)
             {
-                canMove = false;
-            } else
-            {
-                canMove = true;
+                for (int i = 0; i < chairs.Length; i++)
+                {
+                    sitOn = chairs[i].GetComponent<SitOn>();
+                    if (sitOn.sittingOn == true)
+                    {
+                        chairNum = i;
+                        break;
+                    }
+                    else
+                    {
+                        continue;
+                    }
+                }
+                sitOnChair = chairs[chairNum].GetComponent<SitOn>();
+                if (sitOnChair.sittingOn == true)
+                {
+                    canMove = false;
+                }
+                else
+                {
+                    canMove = true;
+                }
             }
+
         }
 
         public virtual void ControlAnimatorRootMotion()
@@ -71,7 +101,7 @@ namespace Invector.vCharacterController
         public virtual void UpdateMoveDirection(Transform referenceTransform = null)
         {
 
-            if(canMove)
+            if (canMove)
             {
                 if (input.magnitude <= 0.01)
                 {

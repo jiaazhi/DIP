@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using Photon.Pun;
 
 namespace Invector.vCharacterController
 {
     public class vThirdPersonInput : MonoBehaviour
     {
+        private PhotonView PV;
         #region Variables       
 
         [Header("Controller Input")]
@@ -25,21 +27,34 @@ namespace Invector.vCharacterController
 
         protected virtual void Start()
         {
+            PV = GetComponent<PhotonView>();
             InitilizeController();
-            InitializeTpCamera();
+            if (PV.IsMine)
+            {
+                InitializeTpCamera();
+            }
+
         }
 
         protected virtual void FixedUpdate()
         {
-            cc.UpdateMotor();               // updates the ThirdPersonMotor methods
-            cc.ControlLocomotionType();     // handle the controller locomotion type and movespeed
-            cc.ControlRotationType();       // handle the controller rotation type
+            if (PV.IsMine)
+            {
+                cc.UpdateMotor();               // updates the ThirdPersonMotor methods
+                cc.ControlLocomotionType();     // handle the controller locomotion type and movespeed
+                cc.ControlRotationType();       // handle the controller rotation type
+            }
+
         }
 
         protected virtual void Update()
         {
-            InputHandle();                  // update the input methods
-            cc.UpdateAnimator();            // updates the Animator Parameters
+            if (PV.IsMine)
+            {
+                InputHandle();                  // update the input methods
+                cc.UpdateAnimator();            // updates the Animator Parameters
+            }
+
         }
 
         public virtual void OnAnimatorMove()
