@@ -1,3 +1,6 @@
 [submodule "StudyCrossing"]
 	path = StudyCrossing
 	url = https://github.com/pamtdoh/StudyCrossing
+[submodule "virtualclassroom_web"]
+	path = virtualclassroom_web
+	url = https://github.com/richardsonqiu/virtualclassroom_web
