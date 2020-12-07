@@ -46,8 +46,22 @@ py app.py
 ```
 
 ## References for docs
-- Group Report
+- Group Report - [/docs/Report.docx](/docs/Report.docx)
 - Poster - [/docs/Poster.png](/docs/Poster.png)
 - Slides - [/docs/Slides.pptx](/docs/Slides.pptx)
 - Trailer Video - [/docs/TrailerVideo.mp4](/docs/TrailerVideo.mp4)
 - Demo Video - [/docs/DemoVideo.mp4](/docs/DemoVideo.mp4)
+
+## About
+This project is part of NTU IEM AY 2020/21 DIP coursework of Group 1, whose member are:
+- Anastasia Patricks
+- Cao Yufei
+- Jeannie Chan Ting Ting
+- Koh Ren Wei
+- Lee Jia Zhi
+- Lee Jun Jie
+- Liu Yuhan
+- Low Xian Hao
+- Priya D/O Kanakarajan
+- Richardson
+- Steven Rachman
