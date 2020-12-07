@@ -2,9 +2,9 @@
 
 
 # How to run
-1. Download game from [releases](/releases) under `Study Crossing v1.0`
+1. Download game from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing v1.0`
 2. Extract zip file and navigate to extracted folder
-4. Run executable `StudyCrossing.exe`
+3. Run executable `StudyCrossing.exe`
 
 # Project structure
 The project is split up into 2 sub-projects:
@@ -17,7 +17,7 @@ The project is split up into 2 sub-projects:
   GitHub page: https://github.com/richardsonqiu/virtualclassroom_web
 
 # Set up classroom project
-1. Clone the project or download directly from [releases](/releases) under `Study Crossing Source Code v1.0`
+1. Clone the project or download directly from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing Source Code v1.0`
 ```
 git clone https://github.com/pamtdoh/StudyCrossing.git
 ```
