@@ -1,5 +1,7 @@
 # Study Crossing
-
+![login](/docs/images/login.jpg)
+![cover](/docs/images/cover.jpg)
+Study Crossing is a multiplayer game serving as an online learning platform for primary school students, built using Unity.
 
 ## How to run
 1. Download game from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing v1.0`
@@ -46,10 +48,3 @@ py app.py
 - Poster - [/docs/Poster.png](/docs/Poster.png)
 - Video
 - Slides
-
-```
-<< Releases >>
-- Study Crossing v1.0
-- Study Crossing Source Code v1.0
--- zipped project
-```
