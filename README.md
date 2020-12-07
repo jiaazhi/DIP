@@ -1,7 +1,7 @@
 # Study Crossing
 <p style="display: flex;">
-  <img src="/docs/images/login.jpg" height="250px" />
-  <img src="/docs/images/cover.jpg" height="250px" /> 
+  <img src="/docs/images/login.jpg" height="200px" />
+  <img src="/docs/images/cover.jpg" height="200px" /> 
 </p>
 Study Crossing is a multiplayer game serving as an online learning platform for primary school students, built using Unity.
 
