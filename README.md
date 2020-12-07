@@ -46,5 +46,5 @@ py app.py
 ## References for docs
 - Group report
 - Poster - [/docs/Poster.png](/docs/Poster.png)
-- Video
+- Video = [/docs/DemoVideo.mp4](/docs/DemoVideo.mp4)
 - Slides
