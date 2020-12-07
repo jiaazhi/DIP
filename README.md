@@ -1,12 +1,12 @@
 # Study Crossing
 
 
-# How to run
+## How to run
 1. Download game from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing v1.0`
 2. Extract zip file and navigate to extracted folder
 3. Run executable `StudyCrossing.exe`
 
-# Project structure
+## Project structure
 The project is split up into 2 sub-projects:
 - 3D Virtual Classroom, a Unity3D project containing all the game assets and scripts for building the game executable.
 
@@ -16,14 +16,14 @@ The project is split up into 2 sub-projects:
   
   GitHub page: https://github.com/richardsonqiu/virtualclassroom_web
 
-# Set up classroom project
+## Set up classroom project
 1. Clone the project or download directly from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing Source Code v1.0`
 ```
 git clone https://github.com/pamtdoh/StudyCrossing.git
 ```
 2. Open project with Unity version `2019.2.14f1`
 
-# Set up website project
+## Set up website project
 1. Run the following commands:
 ```
 git clone https://github.com/richardsonqiu/virtualclassroom_web.git
@@ -41,10 +41,10 @@ SECRET_KEY=
 py app.py
 ```
 
-# References for docs
-- Report
+## References for docs
+- Group report
+- Poster - [/docs/Poster.png](/docs/Poster.png)
 - Video
-- Poster
 - Slides
 
 ```
