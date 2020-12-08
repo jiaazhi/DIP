@@ -49,8 +49,8 @@ py app.py
 - Group Report - [/docs/Report.docx](/docs/Report.docx)
 - Poster - [/docs/Poster.png](/docs/Poster.png)
 - Slides - [/docs/Slides.pptx](/docs/Slides.pptx)
-- Trailer Video - [/docs/TrailerVideo.mp4](/docs/TrailerVideo.mp4)
-- Demo Video - [/docs/DemoVideo.mp4](/docs/DemoVideo.mp4)
+- Trailer Video - https://www.youtube.com/watch?v=NYHp5LKvwNk&feature=youtu.be
+- Demo Video - https://www.youtube.com/watch?v=jQYZIYZKsB8&feature=youtu.be
 
 ## About
 This project is part of NTU IEM AY 2020/21 DIP coursework of Group 1, whose member are:
