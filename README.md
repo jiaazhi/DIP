@@ -5,6 +5,9 @@
 </p>
 Study Crossing is a multiplayer game serving as an online learning platform for primary school students, built using Unity.
 
+## Poster
+![Poster](/docs/Poster.png)
+
 ## How to run
 1. Download game from [releases](https://github.com/jiaazhi/DIP/releases) under `Study Crossing v1.0`
 2. Extract zip file and navigate to extracted folder
